@@ -3,7 +3,6 @@ import lzma
 import zstandard as zstd
 import time
 
-
 def compress_file(method, filename):
     start = time.time()
 
@@ -25,8 +24,6 @@ def compress_file(method, filename):
 
     elapsed = time.time() - start
     return out, elapsed
-
-
 
 def decompress_file(method, filename):
     start = time.time()
