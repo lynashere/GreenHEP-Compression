@@ -25,6 +25,7 @@ def compress_file(method, filename):
     elapsed = time.time() - start
     return out, elapsed
 
+
 def decompress_file(method, filename):
     start = time.time()
 
@@ -42,4 +43,3 @@ def decompress_file(method, filename):
             dctx.decompress(f.read())
 
     return time.time() - start
-  
