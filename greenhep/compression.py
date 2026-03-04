@@ -2,7 +2,6 @@ import gzip
 import lzma
 import zstandard as zstd
 import time
-import os
 
 
 def compress_file(method, filename):
