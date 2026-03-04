@@ -1,0 +1,6 @@
+numpy==1.23.5
+pandas==1.5.3
+matplotlib==3.6.2
+zstandard==0.19.0
+uproot==4.2.3
+ROOT
